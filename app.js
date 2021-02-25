@@ -158,7 +158,9 @@ weekday[6] = "Saturday";
 app.set('view engine', 'ejs');
 
 app.get('/',(req,res)=>{
-    res.render('index' , {data : data , weekday:weekday});
+    const date= new Date();
+    const day= weekday[date.getDay()];
+    res.render('index' , {data : data , day: day});
 })
 
 const port = process.env.PORT || 5000;
