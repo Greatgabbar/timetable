@@ -2,19 +2,17 @@
 <html>
 <body>
 
-
-<pre style="text-align:center;">
-ZOOM MEETING LINKS (2CO5)
+<h3 style="margin: 10px; text-align: center;">ZOOM MEETING LINKS (2CO5)</h3>
 <%const date=new Date() ;%>
 <%const day= weekday[date.getDay()]; %>
 
 <%if (day =="Sunday" || day=="Saturday"){ %>
     <h4>No Class Today 🎉 🎉 🎊 🎊</h4>
 <%}else{%>
-    <%=day%>
-    <div style="text-align: center; font-size: medium; ">
+    <div style="text-align: center; font-size: 25px; ">
+      <b>Day</b> :- <%=day%>
     <%data[day].forEach((lol)=>{%>
-       <p><%=lol.time%> <a href = <%=lol.link%> target="_blank" ><%=lol.code%></a></p>
+       <p style="margin:10px 0px;"><%=lol.time%> <a href = <%=lol.link%> target="_blank" ><%=lol.code%></a></p>
    <% })%>
 </div>
 <%}%>
