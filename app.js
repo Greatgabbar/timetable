@@ -160,6 +160,7 @@ app.set('view engine', 'ejs');
 app.get('/',(req,res)=>{
     const date= new Date();
     const day= weekday[date.getDay()];
+    console.log(day);
     res.render('index' , {data : data , day: day});
 })
 
