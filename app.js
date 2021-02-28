@@ -39,11 +39,6 @@ const data={
             time : "3:30 pm",
             link : "https://tiet.zoom.us/my/mee01",
             code: "UTA026 P"
-        },
-        {
-            time : "5:10 pm",
-            link : "https://tiet.zoom.us/my/mee05",
-            code: "UES010 L"
         }
     ],
     Tuesday : [
