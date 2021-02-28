@@ -158,8 +158,10 @@ weekday[6] = "Saturday";
 app.set('view engine', 'ejs');
 
 app.get('/',(req,res)=>{
-    const date= new Date();
-    const day= weekday[date.getDay()];
+    let dateIST=new Date();
+    dateIST.setHours(dateIST.getHours() + 5); 
+dateIST.setMinutes(dateIST.getMinutes() + 30);
+    const day= weekday[dateIST.getDay()];
     console.log(day);
     res.render('index' , {data : data , day: day});
 })
