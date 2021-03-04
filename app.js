@@ -102,7 +102,7 @@ const data={
             code : "UTA014 P"
         },
         {
-            time : "1:50 am",
+            time : "1:50 pm",
             link : "https://tiet.zoom.us/my/CSED12",
             code : "UCS411 P"
         },
@@ -112,7 +112,7 @@ const data={
             code : "UCS411 L"
         },
         {
-            time : "4:20 am",
+            time : "4:20 pm",
             link : "https://tiet.zoom.us/my/CSED9",
             code : "UCS415 L"
         }
