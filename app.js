@@ -103,7 +103,7 @@ const data={
         },
         {
             time : "1:50 pm",
-            link : "https://tiet.zoom.us/my/CSED12",
+            link : "https://tiet.zoom.us/my/csed12?pwd=VGUxNlkvSC90azZSeWYvWXdmbVVudz09",
             code : "UCS411 P"
         },
         {
