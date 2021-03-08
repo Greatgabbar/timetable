@@ -27,7 +27,7 @@ const data={
         },
         {
             time : "11:20 am",
-            link : "https://tiet.zoom.us/my/CSED8",
+            link : "https://tiet.zoom.us/my/CSED10",
             code: "UTA014 P"
         },
         {
