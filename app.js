@@ -6,11 +6,6 @@ const ejs=require('ejs');
 const data={
     Monday : [
         {
-            time : "8:00 am",
-            link : "https://tiet.zoom.us/my/CSED8",
-            code : "UCS310 L"
-        },
-        {
             time : "8:50 am",
             link : "https://tiet.zoom.us/my/eied1",
             code : "UES034 L"
@@ -118,6 +113,11 @@ const data={
         }
     ],
     Friday : [
+        {
+            time : "9:40 am",
+            link : "https://tiet.zoom.us/my/CSED8",
+            code : "UCS310 L"
+        },
         {
             time : "10:30 am",
             link : "https://tiet.zoom.us/my/mee01",
