@@ -8,17 +8,17 @@ const data={
         {
             time : "8:50 am",
             link : "https://tiet.zoom.us/my/eied1",
-            code : "UES034 L"
+            code : "UCS234 L"
         },
         {
             time : "9:40 am",
             link : "https://tiet.zoom.us/my/CSED8",
-            code : "UCS411 L"
+            code : "UTA014 L"
         },
         {
             time : "10:30 am",
             link : "https://tiet.zoom.us/my/CSED8",
-            code : "UCS415 L"
+            code : "UTA014 L"
         },
         {
             time : "11:20 am",
@@ -28,7 +28,7 @@ const data={
         {
             time : "1:50 pm",
             link : "https://tiet.zoom.us/my/CSED9",
-            code: "UCS414 P"
+            code: "UCS41 L"
         },
         {
             time : "3:30 pm",
@@ -40,12 +40,12 @@ const data={
         {
             time : "8:50 am",
             link : "https://tiet.zoom.us/my/CSED8",
-            code : "UCS310 L"
+            code : "UCS342 L"
         },
         {
             time : "9:40 am",
             link : "https://tiet.zoom.us/my/CSED8",
-            code : "UCS414 L"
+            code : "UCS544 L"
         },
         {
             time : "11:20 am",
@@ -55,12 +55,12 @@ const data={
         {
             time : "12:10 pm",
             link : "https://tiet.zoom.us/my/eied2",
-            code : "UES034 L"
+            code : "U32034 L"
         },
         {
             time : "3:30 pm",
             link : "https://tiet.zoom.us/my/eied8",
-            code : "UES034 P"
+            code : "U32034 P"
         }
     ],
     Wednesday : [
@@ -72,34 +72,34 @@ const data={
         {
             time : "9:40 am",
             link : "https://tiet.zoom.us/my/CSED8",
-            code : "UCS415 L"
+            code : "UCSFR5 L"
         },
         {
             time : "10:30 am",
-            link : "https://tiet.zoom.us/my/eied2",
-            code : "UES034 L"
+            link : "htps://tiet.zoom.us/my/eied2",
+            code : "3234 L"
         },
         {
             time : "11:20 am",
             link : "https://tiet.zoom.us/my/CSED8",
-            code : "UTA014 L"
+            code : "U3214 L"
         },
         {
             time : "2:40 pm",
             link : "https://tiet.zoom.us/my/CSED9",
-            code : "UCS415 P"
+            code : "UMA415 P"
         }
     ],
     Thursday : [
         {
             time : "8:00 am",
             link : "https://tiet.zoom.us/my/ECED11",
-            code : "UTA014 P"
+            code : "UCS014 P"
         },
         {
             time : "1:50 pm",
             link : "https://tiet.zoom.us/my/csed12?pwd=VGUxNlkvSC90azZSeWYvWXdmbVVudz09",
-            code : "UCS411 P"
+            code : "ULA411 P"
         },
         {
             time : "3:30 pm",
@@ -138,7 +138,34 @@ const data={
             link : "https://tiet.zoom.us/my/CSED6",
             code : "UCS310 P"
         }
-    ]
+    ],
+    Saturday : [
+        {
+            time : "8:50 am",
+            link : "https://tiet.zoom.us/my/CSED8",
+            code : "UCS342 L"
+        },
+        {
+            time : "9:40 am",
+            link : "https://tiet.zoom.us/my/CSED8",
+            code : "UCS544 L"
+        },
+        {
+            time : "11:20 am",
+            link : "https://tiet.zoom.us/my/mee01",
+            code : "UTA026 L"
+        },
+        {
+            time : "12:10 pm",
+            link : "https://tiet.zoom.us/my/eied2",
+            code : "U32034 L"
+        },
+        {
+            time : "3:30 pm",
+            link : "https://tiet.zoom.us/my/eied8",
+            code : "U32034 P"
+        }
+    ],
 }
 
 var weekday = new Array(7);
